@@ -538,25 +538,25 @@ header {
 }
 
 .img1{
-  background: url(portfolio-imgdls_design__1747418500_3633932227621284809_184271724.jpg);
+  background: url(portfolio-img/dls_design__1747418500_3633932227621284809_184271724.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .img2{
-  background: url(portfolio-imgorbixflow_1749121230_3648068412153516870_57430702086.heic);
+  background: url(portfolio-img/orbixflow_1749121230_3648068412153516870_57430702086.heic);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .img3{
-  background: url(portfolio-imgshowcase_ui_1748766406_3645239276978866936_49263451391.webp);
+  background: url(portfolio-img/showcase_ui_1748766406_3645239276978866936_49263451391.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .img4{
-  background: url(portfolio-imgvilleoke_1748261515_3641003947209234943_145077266.jpg);
+  background: url(portfolio-img/villeoke_1748261515_3641003947209234943_145077266.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -714,6 +714,7 @@ header {
     flex-direction: column;
   }
 }
+
 
 
 

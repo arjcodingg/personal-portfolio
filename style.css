@@ -1,3 +1,5 @@
+
+
 /* ================= GLOBAL RESET ================= */
 * {
   margin: 0;
@@ -476,3 +478,240 @@ header {
   .services-hero h1 { font-size: 36px; }
   .services-hero p { font-size: 16px; }
 }
+
+
+/* ===== Portfolio Page ===== */
+.portfolio-hero {
+  text-align: center;
+  padding: 140px 10% 60px;
+  background: linear-gradient(135deg, #031117, #081b29);
+}
+
+.portfolio-hero h1 {
+  font-size: 56px;
+  color: #00abf0;
+  margin-bottom: 10px;
+}
+
+.portfolio-hero p {
+  font-size: 18px;
+  color: #d0d0d0;
+}
+
+/* Gallery Section */
+.portfolio-gallery {
+  background: #0a1a25;
+  padding: 80px 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 40px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.portfolio-box {
+  background: #031117;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 171, 240, 0.2);
+  transition: 0.3s ease;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.portfolio-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 25px rgba(0, 171, 240, 0.5);
+}
+
+.portfolio-img {
+  width: 100%;
+  height: 200px;
+  background: rgba(0, 171, 240, 0.1);
+  border-bottom: 2px solid #00abf0;
+  cursor: pointer;
+}
+
+.img1{
+  background: url(/portfolio-img/dls_design__1747418500_3633932227621284809_184271724.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img2{
+  background: url(/portfolio-img/orbixflow_1749121230_3648068412153516870_57430702086.heic);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img3{
+  background: url(/portfolio-img/showcase_ui_1748766406_3645239276978866936_49263451391.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img4{
+  background: url(/portfolio-img/villeoke_1748261515_3641003947209234943_145077266.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+.portfolio-box h3 {
+  margin-top: 15px;
+  font-size: 20px;
+  color: #00abf0;
+}
+
+.portfolio-box p {
+  color: #d0d0d0;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .portfolio-hero h1 {
+    font-size: 38px;
+  }
+
+  .portfolio-hero p {
+    font-size: 16px;
+  }
+
+  .portfolio-box {
+    padding-bottom: 15px;
+  }
+
+  .portfolio-img {
+    height: 180px;
+  }
+}
+
+
+
+
+
+/* ===== CONTACT PAGE ===== */
+.contact {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #05141F, #0a2334);
+  color: #ededed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 10%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 700px;
+  width: 100%;
+  background: rgba(8, 27, 41, 0.8);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 171, 240, 0.2);
+  backdrop-filter: blur(6px);
+}
+
+.contact-container h1 {
+  font-size: 38px;
+  color: #00abf0;
+  margin-bottom: 10px;
+}
+
+.contact-container p {
+  margin-bottom: 30px;
+  color: #c9d7e3;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-group {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.input-group input,
+.contact-form textarea {
+  flex: 1;
+  padding: 14px 18px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: #0b1d2a;
+  color: #ededed;
+  font-size: 16px;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form .btn {
+  background: #00abf0;
+  color: #081b29;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form .btn:hover {
+  background: transparent;
+  color: #00abf0;
+  border: 2px solid #00abf0;
+  transform: scale(1.05);
+}
+
+/* CONTACT INFO */
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.contact-info div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #c9d7e3;
+  font-size: 16px;
+}
+
+.contact-info ion-icon {
+  color: #00abf0;
+  font-size: 22px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 30px 20px;
+  }
+  .input-group {
+    flex-direction: column;
+  }
+}
+
